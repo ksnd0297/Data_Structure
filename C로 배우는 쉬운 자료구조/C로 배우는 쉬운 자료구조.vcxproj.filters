@@ -25,6 +25,9 @@
     <Filter Include="소스 파일\그 외">
       <UniqueIdentifier>{4d96c08f-b7e8-4d93-aee5-2bd98dd58da8}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\Chapter05">
+      <UniqueIdentifier>{a6e41f78-7738-463c-8a69-e4b5e7d7c7f4}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="예제2-1 자료형에 대한 메모리 할당 크기 확인하기.c">
@@ -96,11 +99,20 @@
     <ClCompile Include="예제4-3 원형 연결 리스트에서 노드 삽입ㆍ삭제ㆍ탐색하기.c">
       <Filter>소스 파일\Chapter04</Filter>
     </ClCompile>
-    <ClCompile Include="이중 연결 리스트에서 노드 삽입ㆍ삭제ㆍ탐색하기.c">
+    <ClCompile Include="예제4-4 이중 연결 리스트에서 노드 삽입ㆍ삭제ㆍ탐색하기.c">
       <Filter>소스 파일\Chapter04</Filter>
     </ClCompile>
     <ClCompile Include="memory_alloc.c">
       <Filter>소스 파일\그 외</Filter>
+    </ClCompile>
+    <ClCompile Include="예제4-5 연결 리스트를 이용해 다항식 덧셈하기.c">
+      <Filter>소스 파일\Chapter04</Filter>
+    </ClCompile>
+    <ClCompile Include="예제5-1 순차 자료구조를 이용해 순차 스택 구현하기.c">
+      <Filter>소스 파일\Chapter05</Filter>
+    </ClCompile>
+    <ClCompile Include="예제5-2 연결 자료구조를 이용해 연결 스택 구현하기.c">
+      <Filter>소스 파일\Chapter05</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
