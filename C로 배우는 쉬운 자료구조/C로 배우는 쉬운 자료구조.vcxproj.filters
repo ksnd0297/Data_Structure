@@ -31,6 +31,9 @@
     <Filter Include="소스 파일\Chapter06">
       <UniqueIdentifier>{6cdac42c-0e0d-453e-81ed-fcd5c022dae2}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\Chapter07">
+      <UniqueIdentifier>{5a941f14-1497-4459-b1f1-0aeffe2b3b03}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="예제2-1 자료형에 대한 메모리 할당 크기 확인하기.c">
@@ -134,6 +137,15 @@
     </ClCompile>
     <ClCompile Include="예쩨6-4 이중 연결 리스트를 이용해 데크 구현하기.c">
       <Filter>소스 파일\Chapter06</Filter>
+    </ClCompile>
+    <ClCompile Include="예제7-1 이진 트리 순회하기.c">
+      <Filter>소스 파일\Chapter07</Filter>
+    </ClCompile>
+    <ClCompile Include="예제7-2 이진 트리의 후위 순회를 이용해 폴더 용량 계산하기.c">
+      <Filter>소스 파일\Chapter07</Filter>
+    </ClCompile>
+    <ClCompile Include="예제7-3 스레드 이진 트리 구현하기.c">
+      <Filter>소스 파일\Chapter07</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
