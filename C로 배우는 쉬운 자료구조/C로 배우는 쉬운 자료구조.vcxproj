@@ -265,7 +265,16 @@
     <ClCompile Include="예제6-3 연결 자료구조를 이용해 연결 큐 구현하기.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="예쩨6-4 이중 연결 리스트를 이용해 데크 구현하기.c" />
+    <ClCompile Include="예제7-1 이진 트리 순회하기.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="예제7-2 이진 트리의 후위 순회를 이용해 폴더 용량 계산하기.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="예제7-3 스레드 이진 트리 구현하기.c" />
+    <ClCompile Include="예쩨6-4 이중 연결 리스트를 이용해 데크 구현하기.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
