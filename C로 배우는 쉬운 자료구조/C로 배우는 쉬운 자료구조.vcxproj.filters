@@ -28,6 +28,9 @@
     <Filter Include="소스 파일\Chapter05">
       <UniqueIdentifier>{a6e41f78-7738-463c-8a69-e4b5e7d7c7f4}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\Chapter06">
+      <UniqueIdentifier>{6cdac42c-0e0d-453e-81ed-fcd5c022dae2}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="예제2-1 자료형에 대한 메모리 할당 크기 확인하기.c">
@@ -113,6 +116,24 @@
     </ClCompile>
     <ClCompile Include="예제5-2 연결 자료구조를 이용해 연결 스택 구현하기.c">
       <Filter>소스 파일\Chapter05</Filter>
+    </ClCompile>
+    <ClCompile Include="예제5-3 스택을 이용해 수식의 괄호 쌍 검사하기.c">
+      <Filter>소스 파일\Chapter05</Filter>
+    </ClCompile>
+    <ClCompile Include="예제5-4 수식을 후위 표기법으로 연산하기.c">
+      <Filter>소스 파일\Chapter05</Filter>
+    </ClCompile>
+    <ClCompile Include="예제6-1 순차 자료구조를 이용해 순차 큐 구현하기.c">
+      <Filter>소스 파일\Chapter06</Filter>
+    </ClCompile>
+    <ClCompile Include="예제6-2 순차 자료구조를 이용해 원형 큐 구현하기.c">
+      <Filter>소스 파일\Chapter06</Filter>
+    </ClCompile>
+    <ClCompile Include="예제6-3 연결 자료구조를 이용해 연결 큐 구현하기.c">
+      <Filter>소스 파일\Chapter06</Filter>
+    </ClCompile>
+    <ClCompile Include="예쩨6-4 이중 연결 리스트를 이용해 데크 구현하기.c">
+      <Filter>소스 파일\Chapter06</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
