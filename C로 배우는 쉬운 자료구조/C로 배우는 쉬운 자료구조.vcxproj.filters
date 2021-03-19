@@ -147,5 +147,8 @@
     <ClCompile Include="예제7-3 스레드 이진 트리 구현하기.c">
       <Filter>소스 파일\Chapter07</Filter>
     </ClCompile>
+    <ClCompile Include="예제7-4 이진 탐색 트리의 연산 프로그램.c">
+      <Filter>소스 파일\Chapter07</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

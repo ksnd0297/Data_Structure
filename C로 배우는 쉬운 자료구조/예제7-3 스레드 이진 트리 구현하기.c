@@ -35,16 +35,15 @@ void threadInorder(treeNode* root) {
 	while (q->left) q = q->left;
 	do {
 		printf("%3c", q->data);
-		q = findThreadSuccessor(q);
 	} while (q);
 }
 
 void main() {
 	// (A*B-C/D) 수식 이진 트리 만들기
+	treeNode* n7 = makeRootNode('D', NULL, NULL, 0);
 	treeNode* n6 = makeRootNode('C', NULL, NULL, 1);
 	treeNode* n5 = makeRootNode('B', NULL, NULL, 1);
 	treeNode* n4 = makeRootNode('A', NULL, NULL, 1);
-	treeNode* n3 = makeRootNode('/', n6, NULL, 0);
 	treeNode* n2 = makeRootNode('*', n4, n5, 0);
 	treeNode* n1 = makeRootNode('-', n2, n3, 0);
 

@@ -271,7 +271,10 @@
     <ClCompile Include="예제7-2 이진 트리의 후위 순회를 이용해 폴더 용량 계산하기.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="예제7-3 스레드 이진 트리 구현하기.c" />
+    <ClCompile Include="예제7-3 스레드 이진 트리 구현하기.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="예제7-4 이진 탐색 트리의 연산 프로그램.c" />
     <ClCompile Include="예쩨6-4 이중 연결 리스트를 이용해 데크 구현하기.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
