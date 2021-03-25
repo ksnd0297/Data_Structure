@@ -274,7 +274,19 @@
     <ClCompile Include="예제7-3 스레드 이진 트리 구현하기.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="예제7-4 이진 탐색 트리의 연산 프로그램.c" />
+    <ClCompile Include="예제7-4 이진 탐색 트리의 연산 프로그램.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="예제7-5 AVL 트리 구현하기.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="예제7-6 순차 자료구조를 이용해 최대 히프 구현하기.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="예제8-1 그래프를 인접 행렬로 표현하기.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="예제8-2 그래프를 인접 리스트로 표현하기.c" />
     <ClCompile Include="예쩨6-4 이중 연결 리스트를 이용해 데크 구현하기.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
