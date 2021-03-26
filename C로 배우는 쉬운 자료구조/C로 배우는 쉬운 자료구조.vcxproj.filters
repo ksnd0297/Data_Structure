@@ -37,6 +37,12 @@
     <Filter Include="소스 파일\Chapter08">
       <UniqueIdentifier>{43816e26-3f16-4e3e-b25d-deca3ac0f801}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\Chapter09">
+      <UniqueIdentifier>{f03fc2a2-9a7a-4246-ad66-6756fde4c2ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Chapter10">
+      <UniqueIdentifier>{8c181ead-8277-4b50-866c-2093df1f5c7c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="예제2-1 자료형에 대한 메모리 할당 크기 확인하기.c">
@@ -164,6 +170,54 @@
     </ClCompile>
     <ClCompile Include="예제8-2 그래프를 인접 리스트로 표현하기.c">
       <Filter>소스 파일\Chapter08</Filter>
+    </ClCompile>
+    <ClCompile Include="예제8-3 그래프 깊이 우선 탐색하기.c">
+      <Filter>소스 파일\Chapter08</Filter>
+    </ClCompile>
+    <ClCompile Include="예제8-4 그래프를 너비 우선 탐색하기.c">
+      <Filter>소스 파일\Chapter08</Filter>
+    </ClCompile>
+    <ClCompile Include="예제8-5 다익스트라 최단 경로 구하기.c">
+      <Filter>소스 파일\Chapter08</Filter>
+    </ClCompile>
+    <ClCompile Include="예제8-6 플로이드 최단 경로 구하기.c">
+      <Filter>소스 파일\Chapter08</Filter>
+    </ClCompile>
+    <ClCompile Include="예제9-1 선택 정렬하기.c">
+      <Filter>소스 파일\Chapter09</Filter>
+    </ClCompile>
+    <ClCompile Include="예제9-2 버블 정렬하기.c">
+      <Filter>소스 파일\Chapter09</Filter>
+    </ClCompile>
+    <ClCompile Include="예제9-3 퀵 정렬하기1.c">
+      <Filter>소스 파일\Chapter09</Filter>
+    </ClCompile>
+    <ClCompile Include="예제9-5 삽입 정렬하기.c">
+      <Filter>소스 파일\Chapter09</Filter>
+    </ClCompile>
+    <ClCompile Include="예제9-6 셀 정렬하기.c">
+      <Filter>소스 파일\Chapter09</Filter>
+    </ClCompile>
+    <ClCompile Include="예제9-7 병합 정렬하기.c">
+      <Filter>소스 파일\Chapter09</Filter>
+    </ClCompile>
+    <ClCompile Include="예제9-8 기수 정렬하기.c">
+      <Filter>소스 파일\Chapter09</Filter>
+    </ClCompile>
+    <ClCompile Include="예제9-9 트리 정렬하기.c">
+      <Filter>소스 파일\Chapter09</Filter>
+    </ClCompile>
+    <ClCompile Include="예제10-1 정렬되지 않은 자료를 순차 검색하기.c">
+      <Filter>소스 파일\Chapter10</Filter>
+    </ClCompile>
+    <ClCompile Include="예제10-2 정렬된 자료를 순차 검색하기.c">
+      <Filter>소스 파일\Chapter10</Filter>
+    </ClCompile>
+    <ClCompile Include="예제10-3 자료 색인 순차 검색하기.c">
+      <Filter>소스 파일\Chapter10</Filter>
+    </ClCompile>
+    <ClCompile Include="예제10-4 정렬된 자료를 이진 검색하기.c">
+      <Filter>소스 파일\Chapter10</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
